@@ -1,0 +1,206 @@
+/***********************************************************************************************************/
+/*****************************************   SUPER FLUX V1.0 CSS   *****************************************/
+/***********************************************************************************************************/
+/*******   FONT   *********/
+/**************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/**************************/
+/*********   ALL   ********/
+/**************************/
+
+body {
+    background: #c23b68 !important;
+    font-family: cursive !important;
+}
+
+/* 
+.fakebody
+{
+ background: #d6d8dae1 !important; 
+} */
+
+/***********************************************************************************************************/
+/*************************************************   NAV    ************************************************/
+/***********************************************************************************************************/
+
+.navbar_style {
+    background: rgb(22, 185, 58);
+    color: rgba(49, 33, 196, 0.603);
+    box-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.288);
+}
+
+.navbar_style_a {
+    font-size: 18px;
+    color: blue !important;
+    text-shadow: 0px 4px 1px -2px rgba(0, 0, 0, 0.288);
+    transition-duration: 0.3s;
+    font-weight: bold;
+}
+
+.navbar_style_a:hover {
+    padding-left: 15px !important;
+    border-left: 3px solid pink;
+    text-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.288);
+}
+
+.navbar_style_button {
+    border: none !important;
+    background: none;
+    color: yellowgreen !important;
+    transition-duration: 0.3s !important;
+    outline: none !important;
+}
+
+.navbar_style_button:hover {
+    border: none !important;
+    transform: rotate(720deg) !important;
+    color: #3bffe5ad !important;
+    box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.288) !important;
+}
+
+.navbar_style_button:active {
+    border: none !important;
+    transform: rotate(0deg) !important;
+    color: #53ff1eab !important;
+    box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.288) !important;
+}
+
+.container_parent {
+    margin: 0px !important;
+    padding: 0px !important;
+    background: #d8bb3c;
+    color: black;
+    box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.288) !important;
+}
+
+.button_group {
+    margin-top: 20%;
+}
+
+.btn_style {
+    color: black !important;
+    font-weight: bold;
+    border-radius: 0px !important;
+    box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.288) !important;
+    background: #d6d8da !important;
+    transition-duration: 0.3s;
+}
+
+.btn_style:hover {
+    background: #d6d8da41 !important;
+}
+
+.container_parent .col_child {
+    transition-duration: 0.3s;
+}
+
+.container_parent .col_child:hover {
+    background: rgba(189, 8, 8, 0.795)
+}
+
+.container_parent .col_child h2 {
+    font-size: 2em !important;
+}
+
+.container_parent .col_child .inner {
+    padding: 1em;
+    transition-duration: 0.3s;
+}
+
+.form_style {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.buttonImg {
+    height: 100px;
+}
+
+.btnNews {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: black !important;
+    height: 120px;
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .buttonImg {
+        height: 40px;
+    }
+
+    .btnNews {
+        width: 100%;
+        display: flex;
+        background-color: black;
+        color: black !important;
+        height: 110px;
+        border: 1px solid purple !important;
+
+    }
+}
+
+.btnNews:hover {
+
+    background-color: yellowgreen;
+
+}
+
+.btnNewsSpan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.modal_header {
+    background: #2284e6 !important;
+}
+
+.modal_body {
+    background: rgb(83, 255, 106) !important;
+}
+
+.modal_footer {
+    background: #ff9b19 !important;
+}
+
+
+#supertitle {
+    font-size: 140px;
+    color: rgb(106, 183, 255);
+}
+
+#supersubtitle {
+    font-size: 75px;
+    color: rgb(9, 255, 0);
+}
+
+
+@media screen and (max-width: 640px) {
+
+    #supertitle {
+        font-size : 40px;
+        color: rgb(106, 183, 255);
+    }
+    #supersubtitle {
+        display : none;
+    }
+}
+
+
+#footer {
+    position : fixed;
+    bottom : 0;
+    left : 0;
+    background-color : rgb(22, 185, 58) !important;
+}
+ul {
+    list-style-type: none;
+}

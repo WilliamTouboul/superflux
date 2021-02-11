@@ -1,0 +1,229 @@
+/***********************************************************************************************************/
+/*****************************************   SUPER FLUX V1.0 CSS   *****************************************/
+/***********************************************************************************************************/
+/*******   FONT   *********/
+/**************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+/**************************/
+/*********   ALL   ********/
+/**************************/
+
+* 
+body
+{
+    background: #262a2ee1 !important;
+}
+/* 
+.fakebody
+{
+ background: #262a2ee1 !important; 
+} */
+
+/***********************************************************************************************************/
+/*************************************************   NAV    ************************************************/
+/***********************************************************************************************************/
+
+.navbar_style
+{
+    background: #262a2e;
+    box-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.288);
+}
+
+.navbar_style_a
+{
+    font-size: 18px;
+    color: white !important;
+    text-shadow: 0px 4px 1px -2px rgba(0, 0, 0, 0.288);
+    transition-duration: 0.3s ;
+    font-weight: bold;
+}
+
+.navbar_style_a:hover
+{
+    padding-left: 15px !important;
+    border-left: 3px solid #ffffff69;
+    text-shadow: 0px 4px 8px -2px rgba(0, 0, 0, 0.288);
+}
+
+.navbar_style_button
+{
+    border: none !important;
+    background: none;
+    color: white !important;
+    transition-duration: 0.3s !important;
+    outline: none !important;
+}
+
+.navbar_style_button:hover
+{
+    border: none !important;
+    transform: rotate(720deg) !important;
+    color: #3bffe5ad !important;
+    box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.288) !important;
+}
+.navbar_style_button:active
+{
+    border: none !important;
+    transform: rotate(0deg) !important;
+    color: #53ff1eab !important;
+    box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.288) !important;
+}
+
+.container_parent
+{
+    margin: 0px !important;
+    padding: 0px !important;
+    background: #262a2e;
+    color: white;
+    box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.288) !important;
+}
+
+.button_group
+{
+    margin-top: 20%; 
+}
+
+.btn_style
+{
+    color: white !important;
+    font-weight: bold;
+    border-radius: 0px !important;
+    box-shadow: 0px 4px 2px -2px rgba(0, 0, 0, 0.288) !important;
+    background: #262a2e !important;
+    transition-duration: 0.3s;
+}
+
+.btn_style:hover
+{
+    background: #262a2e41 !important;
+}
+
+.container_parent .col_child
+{
+    transition-duration: 0.3s;
+}
+
+.container_parent .col_child:hover
+{
+    background:rgba(0, 0, 0, 0.103)
+}
+
+.container_parent .col_child h2
+{
+    font-size: 2em !important;
+}
+
+.container_parent .col_child .inner
+{
+    padding: 1em;
+    transition-duration: 0.3s;
+}
+
+.form_style
+{
+    margin: 0px !important;
+    padding: 0px !important;
+}   
+
+.buttonImg {
+    height: 100px;
+}
+
+.btnNews {
+    width: 100% !important;
+    display: flex;
+    background-color: white;
+    color : white !important;
+    height : 120px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .buttonImg {
+        height: 40px;
+    }
+    
+    .btnNews {
+        width: 100%;
+        display: flex;
+        background-color: white;
+        color : white !important;
+        height : 110px;
+        border: 1px solid white !important;
+
+    }
+}
+
+.btnNews:hover {
+
+    background-color: grey;
+
+}
+
+.btnNewsSpan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.modal_header
+{
+    background: #262a2e !important;
+}
+
+.modal_body
+{
+    background: rgb(97, 97, 97) !important;
+}
+.modal_footer
+{
+    display: flex;
+    justify-content: center;
+    background: #262a2e !important;
+}
+
+marquee {
+    display : none;
+}
+
+
+#supertitle {
+    font-size : 140px;
+    color : white;
+}
+#supersubtitle {
+    font-size: 75px;
+    color : white;
+}
+
+@media screen and (max-width: 640px) {
+
+    #supertitle {
+        font-size : 40px;
+        color : white;
+    }
+    #supersubtitle {
+        display : none;
+    }
+}
+
+#footer {
+    position : fixed;
+    bottom : 0;
+    left : 0;
+    background-color : #262a2e !important;
+}
+ul {
+    list-style-type: none;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: white;
+}
